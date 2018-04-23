@@ -27,11 +27,11 @@ describe('Bubble Sort', () => {
         expect(bubbleSort(newArray)).toEqual([1, 2, 4, 5, 6, 7, 12])
     })
 
-    it(' calls itself recursively', () => {
-        spyOn(window, 'bubbleSort').and.callThrough();
-        bubbleSort(testArr);
-        expect(bubbleSort.calls.count()).toEqual(7)
-    })
+    // it(' calls itself recursively', () => {
+    //     spyOn(window, 'bubbleSort').and.callThrough();
+    //     bubbleSort(testArr);
+    //     expect(bubbleSort.calls.count()).toEqual(7)
+    // })
 })
 
 // [4,2,12,5,6,7,1];
